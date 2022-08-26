@@ -156,3 +156,68 @@ h2, p, h3, i, h4 {
 }
 
 /*queries*/
+@media screen and (max-width:768px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .img {
+        width: 100%;
+    }
+
+    .section-1 {
+        height: 15vh;
+    }
+
+    .h4-1 {
+        font-size: 1em;
+    }
+
+    .section-2 {
+        height: 50vh;
+    }
+
+    .section-3 {
+        height: 70vh;
+    }
+
+    .section-4 {
+        height: 60vh;
+    }
+
+    .section-5 {
+        height: 195vh;
+    } 
+}
+
+@media screen and (max-width:420px) {
+    .container {
+        flex-direction: column;
+    }
+    .container .img {
+        width: 100%;
+    }
+
+    .section-1 {
+        height: 15vh;
+    }
+
+    .h4-1 {
+        font-size: 1em;
+    }
+
+    .section-2 {
+        height: 50vh;
+    }
+
+    .section-3 {
+        height: 70vh;
+    }
+
+    .section-4 {
+        height: 60vh;
+    }
+
+    .section-5 {
+        height: 195vh;
+    } 
+}
