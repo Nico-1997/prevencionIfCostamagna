@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0;
+    font-family: "Mukta";
+}
+
+.contenedor {
+    width: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 200vh;
+    height: 140px;
+    display: grid;
+    background-color: gray;
+    border: solid transparent;
+    border-radius: 5px;
+}
+
+.h1-1 {
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.h3-1 {
+    margin-left: 15px;
+}
+
+/*icono volver al inicio*/
+.nav__inicio {
+    list-style: none;
+    margin: 5px;
+    font-size: 25px;
+    text-align: end;
+}
+
+/*img*/
+.img {
+   display: grid;
+   border-radius: 5px;
+}
+
+/*año a año*/
+.section-1 {
+    background-color: rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    width: 200vh;
+    height: 80px;
+    display: grid;
+    align-items: left;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/*Como evitar incendios forestales*/
+.section-2 {
+    background-color: rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    width: 200vh;
+    height: 150px;
+    display: grid;
+    align-items: left;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/*Consejos para prevenir if*/
+.section-3 {
+    background-color: rgb(205, 205, 205);
+    border-bottom: solid 1px black;
+    margin: 0px 0px 0x 0px;
+    width: 200vh;
+    height: 210px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+.lista-1 {
+    padding-left: 25px;
+    display: grid;
+    flex-direction: column;
+}
+
+/*consejos si encuentro un if*/
+.section-4 {
+    background-color: rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    width: 200vh;
+    height: 140px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.lista-2 {
+    padding-left: 25px;
+    display: grid;
+    flex-direction: column;
+}
+
+/*tweetFWI*/
+.section-5 {
+    background-color: rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    width: 141vh;
+    height: 950px;
+    display: grid;
+    text-align: center;
+    border-radius: 5px;
+}
+    
+.tweet {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+}
+
+/*video prevencion*/
+.section-6 {
+    display: flex;
+    margin: 2px;
+}
+
+.iframe {
+    width: 200vh;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+/*redes*/
+.contactos {
+    list-style: none;
+    display: grid;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+h2, p, h3, i, h4 {
+    margin: 5px;
+}
+
+/*queries*/
