@@ -155,6 +155,23 @@ h2, p, h3, i, h4 {
     margin: 5px;
 }
 
+/*tranformaciones*/
+    .section-1:hover {
+        transform: scale(1.1);
+    }
+
+    .section-2:hover {
+        transform: scale(1.1);
+    }
+
+    .section-3:hover {
+        transform: scale(1.1);
+    }
+
+    .section-4:hover {
+        transform: scale(1.1);
+    }
+
 /*queries*/
 @media screen and (max-width:768px) {
     .container {
