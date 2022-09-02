@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.contenedor {
+    width: 200vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    width: 200vh;
+    height: 55px;
+    display: grid;
+    background-color: gray;
+    border: solid transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*niveles fwi*/
+.section-2 {
+    background-color: rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(0, 0, 0);
+    margin: 0px 0px 0px 0px;
+    width: 200vh;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.bajo {
+    background-color: rgb(62, 133, 226);
+}
+
+.medio {
+    background-color: rgb(235, 235, 59);
+}
+
+.alto {
+    background-color: orange;
+}
+
+.extremo {
+    background-color: red;
+}
+
+/*contactos*/
+.contactos {
+    list-style: none;
+    display: grid;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
