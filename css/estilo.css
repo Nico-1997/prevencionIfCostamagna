@@ -89,15 +89,3 @@ h2, p, h3, i, h4 {
   position: fixed;
   bottom: 0;
   right: 0; }
-
-.section-1:hover {
-  transform: scale(1.1); }
-
-.section-2:hover {
-  transform: scale(1.1); }
-
-.section-3:hover {
-  transform: scale(1.1); }
-
-.section-4:hover {
-  transform: scale(1.1); }
