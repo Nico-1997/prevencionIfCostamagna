@@ -3,48 +3,38 @@
     padding: 0;
 }
 
-.contenedor {
-    width: 200vh;
-    display: flex;
-    flex-direction: column;
+body {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: rgb(65, 64, 64)
 }
 
-.section-1 {
-    width: 200vh;
-    height: 55px;
-    display: grid;
-    background-color: gray;
-    border: solid transparent;
-    border-radius: 5px;
-    text-align: center;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
 }
 
-/*niveles fwi*/
-.section-2 {
-    background-color: rgb(205, 205, 205);
-    border-bottom: solid 1px rgb(0, 0, 0);
-    margin: 0px 0px 0px 0px;
-    width: 200vh;
-    height: 400px;
-    display: grid;
-    justify-content: center;
-    border-radius: 5px;
+h1, h2, h3, p, li {
+    color: aliceblue;
 }
 
 .bajo {
-    background-color: rgb(62, 133, 226);
+    color: rgb(62, 133, 226);
 }
 
 .medio {
-    background-color: rgb(235, 235, 59);
+    color: rgb(235, 235, 59);
 }
 
 .alto {
-    background-color: orange;
+    color: orange;
 }
 
 .extremo {
-    background-color: red;
+    color: red;
 }
 
 /*contactos*/

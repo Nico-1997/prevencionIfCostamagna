@@ -1,144 +1,63 @@
 * {
     margin: 0px;
     padding: 0;
-    font-family: "Mukta";
 }
 
-.contenedor {
-    width: 200vh;
+body {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    background-color: rgb(65, 64, 64)
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+}
+
+.h1-1 , .h3-1{
+    color: aliceblue;
+}
+
+.cards {
+    width: 100%;
+    height: 430px;
     display: flex;
-    flex-direction: column;
-}
-
-.header{
-    width: 200vh;
-    height: 140px;
-    display: grid;
-    background-color: gray;
-    border: solid transparent;
-    border-radius: 5px;
-}
-
-.h1-1 {
-    font-size: 40px;
-    margin-left: 10px;
-}
-
-.h3-1 {
-    margin-left: 15px;
-}
-
-/*icono volver al inicio*/
-.nav__inicio {
-    list-style: none;
-    margin: 5px;
-    font-size: 25px;
-    text-align: end;
-}
-
-/*img*/
-.img {
-   display: grid;
-   border-radius: 5px;
-}
-
-/*año a año*/
-.section-1 {
-    background-color: rgb(205, 205, 205);
-    border-bottom: solid 1px rgb(0, 0, 0);
-    margin: 0px 0px 0px 0px;
-    width: 200vh;
-    height: 80px;
-    display: grid;
-    align-items: left;
+    flex-wrap: wrap;
     justify-content: center;
-    border-radius: 5px;
+    margin: auto;
 }
 
-/*Como evitar incendios forestales*/
-.section-2 {
-    background-color: rgb(205, 205, 205);
-    border-bottom: solid 1px rgb(0, 0, 0);
-    margin: 0px 0px 0px 0px;
-    width: 200vh;
-    height: 150px;
-    display: grid;
-    align-items: left;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-/*Consejos para prevenir if*/
-.section-3 {
-    background-color: rgb(205, 205, 205);
-    border-bottom: solid 1px black;
-    margin: 0px 0px 0x 0px;
-    width: 200vh;
-    height: 210px;
-    display: grid;
-    align-items: center;
-    justify-content: left;
-    border-radius: 5px;
-}
-
-.lista-1 {
-    padding-left: 25px;
-    display: grid;
-    flex-direction: column;
-}
-
-/*consejos si encuentro un if*/
-.section-4 {
-    background-color: rgb(205, 205, 205);
-    border-bottom: solid 1px rgb(0, 0, 0);
-    margin: 0px 0px 0px 0px;
-    width: 200vh;
-    height: 140px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-}
-
-.lista-2 {
-    padding-left: 25px;
-    display: grid;
-    flex-direction: column;
-}
-
-/*tweetFWI*/
-.section-5 {
-    background-color: rgb(205, 205, 205);
-    border-bottom: solid 1px rgb(0, 0, 0);
-    width: 141vh;
-    height: 950px;
-    display: grid;
+.cards .card {
+    width: 330px;
+    height: 530px;
+    background-color: rgb(65, 64, 64);
+    color: aliceblue;
+    border-radius: 8px;
+    border-color: transparent;
+    /* box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); */
+    overflow: hidden;
+    margin: 20px;
     text-align: center;
-    border-radius: 5px;
-}
-    
-.tweet {
-        display: grid;
-        align-items: center;
-        justify-content: center;
+    transition: all 0.25s;
 }
 
-/*video prevencion*/
-.section-6 {
-    display: flex;
-    margin: 2px;
+.cards .card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.iframe {
-    width: 200vh;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5px;
+.prevenir {
+    width: 240px;
+    height: 200px;
 }
 
-/*redes*/
+.fwi {
+    width: 240px;
+}
+
 .contactos {
     list-style: none;
     display: grid;
@@ -149,92 +68,4 @@
     position: fixed;
     bottom: 0;
     right: 0;
-}
-
-h2, p, h3, i, h4 {
-    margin: 5px;
-}
-
-/*tranformaciones*/
-    .section-1:hover {
-        transform: scale(1.1);
-    }
-
-    .section-2:hover {
-        transform: scale(1.1);
-    }
-
-    .section-3:hover {
-        transform: scale(1.1);
-    }
-
-    .section-4:hover {
-        transform: scale(1.1);
-    }
-
-/*queries*/
-@media screen and (max-width:768px) {
-    .container {
-        flex-direction: column;
-    }
-    .container .img {
-        width: 100%;
-    }
-
-    .section-1 {
-        height: 15vh;
-    }
-
-    .h4-1 {
-        font-size: 1em;
-    }
-
-    .section-2 {
-        height: 50vh;
-    }
-
-    .section-3 {
-        height: 70vh;
-    }
-
-    .section-4 {
-        height: 60vh;
-    }
-
-    .section-5 {
-        height: 195vh;
-    } 
-}
-
-@media screen and (max-width:420px) {
-    .container {
-        flex-direction: column;
-    }
-    .container .img {
-        width: 100%;
-    }
-
-    .section-1 {
-        height: 15vh;
-    }
-
-    .h4-1 {
-        font-size: 1em;
-    }
-
-    .section-2 {
-        height: 50vh;
-    }
-
-    .section-3 {
-        height: 70vh;
-    }
-
-    .section-4 {
-        height: 60vh;
-    }
-
-    .section-5 {
-        height: 195vh;
-    } 
 }

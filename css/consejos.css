@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.contenedor {
+.container {
     width: 200vh;
     display: flex;
     flex-direction: column;
