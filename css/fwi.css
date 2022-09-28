@@ -17,10 +17,35 @@ body {
     height: 430px;
 }
 
-h1, h2, h3, p, li {
+.header {
+    background-image: url("/img/fondojpeg.png");
+    background-color: rgb(49, 49, 49);
+    border-radius: 5px;
+    margin: 5px 0px 10px 0px;
+}
+
+h1, h2, h3, h4, p, li {
     color: aliceblue;
 }
 
+.h2-1 {
+    margin: 10px;
+    border-radius: 5px;
+    width: 19vh;
+    padding: 2px;
+    box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+}
+
+.h2-2 {
+    margin: 10px;
+    border-radius: 5px;
+    width: 50vh;
+    padding: 2px;
+    box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+}
+
+
+/*clases de riesgo*/
 .bajo {
     color: rgb(62, 133, 226);
 }
@@ -37,15 +62,25 @@ h1, h2, h3, p, li {
     color: red;
 }
 
+/*nuevo FWI*/
+
+.iframe {
+    display: flex;
+    justify-content: center;
+}
+
 /*contactos*/
 .contactos {
     list-style: none;
     display: grid;
     flex-direction: column;
     align-items: flex-end;
-    margin: 0px;
     font-size: 20px;
     position: fixed;
     bottom: 0;
     right: 0;
+}
+
+.home, .msj, .ig, .fb, .tw{
+    color: aliceblue;
 }

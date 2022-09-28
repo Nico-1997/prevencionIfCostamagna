@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.rtl.min.css">
-    <link rel="stylesheet" href="../css/fwi.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta name="keywprds" content="incendios, incendios forestales, prevencion, consejos, fwi">
     <meta name="description" content="Indice de peligro de Incendios Forestales FWI">
     <title>Incendios Forestales-FWI</title>
@@ -17,25 +17,40 @@
 </head>
 <body>
     <main class="container">
-        <div class="row">
-            <div class="row">
-                <header class="col-12 header">
-                    <h1>Los Incendios Forestales</h1>
-                    <h3>Hablando un poco</h3>           
-                </header> 
-            </div>
-            <div class="col-12 section-1">
-               <h2>Indice de Peligro de Incendios Forestales (FWI)</h2>
-               <p>
-                    Es un índice basado en la meteorología. El sistema consta de seis componentes o subíndices siendo el FWI el índice final y tiene en cuenta la humedad de los combustibles muertos presentes en el suelo y el subsuelo y el efecto del viento para producir un indicador que estima la intensidad de propagación de un fuego. 
-                    El FWI se obtiene combinando linealmente un indicador de la velocidad de propagación del incendio (ISI) y un indicador del combustible disponible (BUI); es decir, el FWI constituye una buena medida de la probabilidad de ignición, relacionada a su vez con el contenido de humedad de los combustibles, la posible extensión del incendio y con la dificultad de su extinción. 
-                    El índice FWI representa la intensidad de propagación del fuego y puede ser considerado como un índice de comportamiento del fuego.
-                </p>
-            </div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+                <a class="navbar-brand" href="#"><img src="../img/if.png" class="img-menu"></a>
+                <a href="#" class="titulo-menu">Incendios Forestales</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto">
+                    <li>
+                      <a class="nav-link nav-item" target="_blank" href="../pages/consejos.html">Prevenir</a>
+                    </li>
+                    <li>
+                      <a class="nav-link nav-item" target="_blank" href="../pages/fwi.html">FWI</a>
+                    </li>
+                    <li>
+                      <a class="nav-link nav-item" target="_blank" href="../pages/sobre-mi.html">Sobre Mi</a>
+                    </li>
+                </div>
+              </nav>
+        </header>
+        </div>
+        <div>
+            <h4>Indice de Peligro de Incendios Forestales (FWI)</h4>
+            <p>
+                Es un índice basado en la meteorología. El sistema consta de seis componentes o subíndices siendo el FWI el índice final y tiene en cuenta la humedad de los combustibles muertos presentes en el suelo y el subsuelo y el efecto del viento para producir un indicador que estima la intensidad de propagación de un fuego. 
+                El FWI se obtiene combinando linealmente un indicador de la velocidad de propagación del incendio (ISI) y un indicador del combustible disponible (BUI); es decir, el FWI constituye una buena medida de la probabilidad de ignición, relacionada a su vez con el contenido de humedad de los combustibles, la posible extensión del incendio y con la dificultad de su extinción. 
+                El índice FWI representa la intensidad de propagación del fuego y puede ser considerado como un índice de comportamiento del fuego.
+            </p>
+        </div>
         </div>
         <div class="row">
             <section class="col-12 section-2">
-                <h3>Niveles de Riesgo de incendio</h3>
+                <h4>Niveles de Riesgo de incendio</h4>
                 <ul>
                     <li>Clase 1: <span class="bajo">BAJO</span>
                         <P>La humedad de los combustibles superficiales no mantiene los incendios que puedan iniciarse. 
@@ -57,18 +72,27 @@
                 </ul>
             </section>
         </div>
-        <div>
-
+        <div class="row">
+            <div class="col-12">
+                <h4>Nuevo FWI para Cordoba</h4> 
+                <p>
+                    Con esta nueva herramienta podemos ver de una mejor manera las zonas con mayor riesgo de incendios
+                    forestales en nuestra provincia.
+                </p>
+            </div>
+           <div class="col-12 iframe">
+                <blockquote class="twitter-tweet" data-lang="es" data-theme="dark"><p lang="es" dir="ltr">El <a href="https://twitter.com/HidroCordoba?ref_src=twsrc%5Etfw">@HidroCordoba</a> lanza el nuevo Índice de Peligro de Incendios (FWI) en la provincia de Córdoba. Toma como base temperatura, viento, humedad relativa y precipitaciones previstas por el modelo regional WRF en las últimas 24 horas. La imagen es demostrativa. <a href="https://t.co/F02T3OijId">pic.twitter.com/F02T3OijId</a></p>&mdash; Observatorio Hidro-meteorológico de Córdoba (@HidroCordoba) <a href="https://twitter.com/HidroCordoba/status/1557143210203516929?ref_src=twsrc%5Etfw">9 de agosto de 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+           </div>
         </div>
     </main>
     <footer>
         <nav>
             <ul class="contactos">
-                <li> <span><a href="../index.html"><i class="fa-solid fa-house-user"></i></a></span></li>
-                <li> <span><a target="_blank" href="https://www.cba.gov.ar/espacio-ciudadano/"><i class="fa-solid fa-envelope"></i></a></span></li>
-                <li> <span><a target="_blank" href="https://www.instagram.com/cordobaok/?hl=es-la"><i class="fa-brands fa-instagram"></i></a></span></li>
-                <li> <span><a target="_blank" href="https://www.facebook.com/gobdecordoba"><i class="fa-brands fa-facebook"></i></a></span></li>
-                <li> <span><a target="_blank" href="https://twitter.com/gobdecordoba"> <i class="fa-brands fa-twitter"></i></a></span></li>
+                <li><a href="../index.html"><i class="fa-solid fa-house-user home"></i></a></li>
+                <li><a target="_blank" href="https://www.cba.gov.ar/espacio-ciudadano/"><i class="fa-solid fa-envelope msj"></i></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/cordobaok/?hl=es-la"><i class="fa-brands fa-instagram ig"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/gobdecordoba"><i class="fa-brands fa-facebook fb "></i></a></li>
+                <li><a target="_blank" href="https://twitter.com/gobdecordoba"> <i class="fa-brands fa-twitter tw"></i></a></li>
             </ul>
         </nav>
     </footer>
