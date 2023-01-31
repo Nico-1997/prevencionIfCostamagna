@@ -43,11 +43,15 @@ body {
     color: rgb(85, 85, 85);
 }
 
+.nab {
+    justify-content: right;
+}
+
 .nav-item {
     font-size: 15px;
     font-weight: bold;
     color: black;
-    margin-right: 10px;
+    justify-content:left;
 }
 
 .nav-item:hover {
@@ -77,7 +81,6 @@ body {
     height: 430px;
     display: flex;
     flex-direction:row;
-    margin: auto;
 }
 
 .cards .card {
@@ -213,11 +216,11 @@ p {
 }
 
 .img-sobremi {
-    width: 240px;
-    height: 200px;
-    border-radius: 205px;
+    width: 440px;
+    height: 420px;
+    border-radius: 10px;
     display:block;
-    margin: auto;
+   margin: 90px 0px 0px 20px;
 }
 
 .description {
@@ -251,6 +254,23 @@ li {
     color: aliceblue;
 }
 /*queries*/
+
+@media (max-width: 1440px) {
+    .img-2 {
+        width: 155vh;
+        height: 40vh;
+        border-radius: 5px;
+    }
+
+    .h2-1 {
+        margin: 10px;
+        border-radius: 5px;
+        width: 25vh;
+        padding: 2px;
+        box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+}
+
 @media (max-width: 768px) {
     body {
         width: 100%;
