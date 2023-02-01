@@ -16,47 +16,53 @@
 <body>
     <main class="container">
         <header>
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="../img/if.png" class="img-menu"></a>
-              <a href="#" class="titulo-menu">Incendios Forestales</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link nav-item" target="_blank" href="../pages/consejos.html">Prevenir</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link nav-item" target="_blank" href="../pages/fwi.html">FWI</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link nav-item" target="_blank" href="../pages/sobre-mi.html">Sobre Mi</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>  
+          <div class="div-nav">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary nav-bar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html"><img src="../img/if.png" class="img-menu"></a>
+                    <div class="titulo-menu">
+                        <a href="../index.html" class="titulo-menu">Incendios Forestales</a>
+                    </div> 
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nab" id="navbarNav">
+                        <div class="nav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-item" target="_blank" href="../pages/consejos.html">Prevenir</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-item" target="_blank" href="../pages/fwi.html">FWI</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-item" target="_blank" href="../pages/sobre-mi.html">Sobre Mi</a>
+                                </li>
+                            </ul>
+                        </div>                         
+                    </div>                       
+                </div>    
+            </nav>
+        </div>
         </header>
-        <div>
-            <section class="section-1">
-                <img src="../img/yo.jpg" class="img-sobremi">
-                <p class="description">
-                    Mi nombre es Nicolas Costamagna, soy Bombero Voluntarios y vivo en un pueblito llamado Las Junturas, ubicado en mi querida Cordoba, Argentina.
-                </p>
-            </section>
+        <div class="row">
+          <div class="col-4">
+            <img src="../img/yo.jpg" class="img-sobremi">
+          </div>
+          <div class="col-8 sobre-mi">
+            <p>
+              Mi nombre es Nicolas Costamagna soy Bombero Voluntarios y vivo en un pueblito llamado Las Junturas, ubicado en mi querida Cordoba, Argentina.
+            </p>     
+          </div>
         </div>
     </main>
-    <footer>
-        <nav>
-            <ul class="contactos">
-                <li><a href="../index.html"><i class="fa-solid fa-house-user home"></i></a></li>
-                <li><a target="_blank" href="mailto:nicolascostamagna236@gmail.com"><i class="fa-solid fa-envelope msj"></i></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/nicocostamagna/?hl=es-la"><i class="fa-brands fa-instagram ig"></i></a></li>
-                <li><a target="_blank" href="https://www.facebook.com/nico646"><i class="fa-brands fa-facebook fb"></i></a></li>
-                <li><a target="_blank" href="https://twitter.com/nico646"> <i class="fa-brands fa-twitter tw"></i></a></li>
-            </ul>
+    <footer class="contactos-sobremi">
+        <nav class="nav-sobremi">
+            <a href="../index.html"><i class="fa-solid fa-house-user home"></i></a></li>
+            <a target="_blank" href="mailto:nicolascostamagna236@gmail.com"><i class="fa-solid fa-envelope msj"></i></a></li>
+            <a target="_blank" href="https://www.instagram.com/nicocostamagna/?hl=es-la"><i class="fa-brands fa-instagram ig"></i></a></li>
+            <a target="_blank" href="https://www.facebook.com/nico646"><i class="fa-brands fa-facebook fb"></i></a></li>
+            <a target="_blank" href="https://twitter.com/nico646"> <i class="fa-brands fa-twitter tw"></i></a></li>
         </nav>
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>

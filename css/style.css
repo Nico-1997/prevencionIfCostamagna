@@ -1,5 +1,6 @@
 * {
     margin: 0px;
+    margin-bottom: 5px;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -43,6 +44,11 @@ body {
     color: rgb(85, 85, 85);
 }
 
+.nav-bar {
+    border-radius: 5px;
+    height: 8vh;
+}
+
 .nab {
     justify-content: right;
 }
@@ -51,7 +57,9 @@ body {
     font-size: 15px;
     font-weight: bold;
     color: black;
+    text-align: center;
     justify-content:left;
+    margin-top: 5px;
 }
 
 .nav-item:hover {
@@ -77,15 +85,19 @@ body {
 
 /*cards*/
 .cards {
-    width: 150vh;
-    height: 430px;
     display: flex;
-    flex-direction:row;
+    min-width: 30vh;
+    font-size: 2.2vh;
+    list-style: none; 
+    justify-content:center;
+    position:center;
+    align-items: flex-end;
+    bottom: 0;
 }
 
 .cards .card {
     width: 350px;
-    height: 490px;
+    height: 494px;
     background-color: rgb(100, 100, 100);
     box-shadow: 0 12px 16px rgba(150, 150, 150, 0.3);
     color: aliceblue;
@@ -130,14 +142,31 @@ img {
 
 /*footer*/
 .contactos {
+    display: flex;
+    min-width: 30vh;
+    font-size: 2.2vh;
     list-style: none;
-    display: grid;
     flex-direction: column;
+    justify-content: space-around;
+    position:fixed;
     align-items: flex-end;
-    font-size: 20px;
-    position: fixed;
     bottom: 0;
-    right: 0;
+    right: 3vh;
+}
+
+.contactos-sobremi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-sobremi {
+    display: flex;
+    min-width: 30vh;
+    font-size: 3vh;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0px;
 }
 
 .home, .msj, .ig, .fb, .tw{
@@ -186,7 +215,7 @@ li {
 p {
     color: aliceblue;
 }
-.h2-2 {
+.h2-interface {
     margin: 10px;
     border-radius: 5px;
     width: 41vh;
@@ -204,29 +233,17 @@ p {
 
 /*sobre mi*/
 /*imagen + descripcion sobre mi*/
-.section-1 {
-    width: 125vh;
-    height: 600px;
-    background-color: rgb(65, 64, 64);
-    box-shadow: 0 12px 16px rgba(150, 150, 150, 0.3);
-    color: aliceblue;
-    display: flex;
-    font-size: 20px;
-    border-radius: 5px;
-}
-
 .img-sobremi {
-    width: 440px;
-    height: 420px;
+    width: 40vh;
+    height: 55vh;
     border-radius: 10px;
     display:block;
-   margin: 90px 0px 0px 20px;
 }
 
-.description {
-    display: grid;
-    margin-left: 20px;
-    align-items: center;
+.sobre-mi {
+    display: flex;
+    align-items:center;
+    color: white;
 }
 
 /*FWI*/
@@ -268,6 +285,63 @@ li {
         width: 25vh;
         padding: 2px;
         box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+
+    .h2-consejos {
+        margin: 10px;
+        border-radius: 5px;
+        width: 19vh;
+        padding: 2px;
+        box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+
+    .h2-interface {
+        margin: 10px;
+        border-radius: 5px;
+        width: 50vh;
+        padding: 2px;
+        color: white;
+        box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+
+    .h4-fwi {
+        margin: 10px;
+        border-radius: 5px;
+        width: 71vh;
+        padding: 2px;
+        box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+
+    .h4-riesgo {
+        margin: 10px;
+        border-radius: 5px;
+        width: 46vh;
+        padding: 2px;
+        box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+
+    .h4-fwi-cba {
+        margin: 10px;
+        border-radius: 5px;
+        width: 39vh;
+        padding: 2px;
+        box-shadow: 3px 3px rgba(240, 240, 240, 0.7);
+    }
+
+    /*sobre mi*/
+    /*imagen + descripcion sobre mi*/
+    .img-sobremi {
+        width: 50vh;
+        height: 65vh;
+        border-radius: 10px;
+        display:block;
+    }
+
+    .sobre-mi {
+        display: flex;
+        align-items:center;
+        color: white;
+        font-size: 3vh;
     }
 }
 
